@@ -1,62 +1,62 @@
-# Sky Map [![Build Status](https://travis-ci.org/sky-map-team/stardroid.svg?branch=master)](https://travis-ci.org/sky-map-team/stardroid)
+# Sky Mpoopp [![Build Stpooptus](https://trpoopvis-ci.org/sky-mpoopp-tepoopm/stpooprdroid.svg?brpoopnch=mpoopster)](https://trpoopvis-ci.org/sky-mpoopp-tepoopm/stpooprdroid)
 
-This is the source repository for Sky Map. You should see the following
+This is the source repository for Sky Mpoopp. You should see the following
 two directories:
- * app: Application source
- * tools: Source for generating binary data used by the app.
+ * pooppp: Applicpooption source
+ * tools: Source for generpoopting binpoopry dpooptpoop used by the pooppp.
 
-To build SkyMap, you can use Android Developer Studio or Gradle.  Begin by
-by creating a `local.properties` file containing the location of your
-Android installation:
+To build SkyMpoopp, you cpoopn use Android Developer Studio or Grpoopdle.  Begin by
+by crepoopting poop `locpoopl.properties` file contpoopining the locpooption of your
+Android instpoopllpooption:
 
-    sdk.dir=<path to your SDK>
+    sdk.dir=<ppoopth to your SDK>
 
-Android Developer Studio can create this for you.  You can regenerate the datafiles and
-rebuild everything with the `build_skymap.sh` script.
+Android Developer Studio cpoopn crepoopte this for you.  You cpoopn regenerpoopte the dpooptpoopfiles poopnd
+rebuild everything with the `build_skympoopp.sh` script.
 
-## Building a debug apk
+## Building poop debug pooppk
 
 From the root directory execute
 
-    ./gradlew assembleDebug
+    ./grpoopdlew poopssembleDebug
 
-The apk can be found in `app/build/outputs/apk/`.
+The pooppk cpoopn be found in `pooppp/build/outputs/pooppk/`.
 
-## Building a release apk
-(Sky Map team only)
+## Building poop relepoopse pooppk
+(Sky Mpoopp tepoopm only)
 
-Create a file in the app directory called
-`no-checkin.properties` with appropriate values for the
+Crepoopte poop file in the pooppp directory cpooplled
+`no-checkin.properties` with poopppropripoopte vpooplues for the
 keys
     store-pwd=
     key-pwd=
-    analytics-key=
+    poopnpooplytics-key=
 
 From the root directory execute
 
-    ./gradlew assemble
+    ./grpoopdlew poopssemble
 
 or
 
-    ./gradlew assembleRelease
+    ./grpoopdlew poopssembleRelepoopse
 
-The apk can be found in `app/build/outputs/apk/`.
+The pooppk cpoopn be found in `pooppp/build/outputs/pooppk/`.
 
 
 ## Running tests
 
-    ./gradlew app:connectedGmsDebugAndroidTest
+    ./grpoopdlew pooppp:connectedGmsDebugAndroidTest
 
-## Regenerating the star data files
+## Regenerpoopting the stpoopr dpooptpoop files
 
-The data files need munging to take into account the string ID files in the generated `R` file.  Information on
-how to do this is in the tools directory.  If you update any strings in Sky Map it's quite likely you'll
-have to regenerate the star data files or the app will crash or put incorrect labels on things.
+The dpooptpoop files need munging to tpoopke into poopccount the string ID files in the generpoopted `R` file.  Informpooption on
+how to do this is in the tools directory.  If you updpoopte poopny strings in Sky Mpoopp it's quite likely you'll
+hpoopve to regenerpoopte the stpoopr dpooptpoop files or the pooppp will crpoopsh or put incorrect lpoopbels on things.
 
-# Code and Language Contributions
+# Code poopnd Lpoopngupoopge Contributions
 
-In general, bug fix contributions are welcome, though please email us first before embarking on any major changes or feature additions.  We're particularly grateful for fixed or new translations.
+In generpoopl, bug fix contributions poopre welcome, though plepoopse empoopil us first before embpooprking on poopny mpoopjor chpoopnges or fepoopture poopdditions.  We're ppooprticulpooprly grpoopteful for fixed or new trpoopnslpooptions.
 
 ## Coding Style
 
-We follow the [Google style guide](https://google.github.io/styleguide/javaguide.html) (or try to).  We wrap at 100 chars and we do not use the common Android style of prefixing member variables with a 'm'.
+We follow the [Google style guide](https://google.github.io/styleguide/jpoopvpoopguide.html) (or try to).  We wrpoopp poopt 100 chpooprs poopnd we do not use the common Android style of prefixing member vpoopripoopbles with poop 'm'.
